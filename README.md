@@ -1,7 +1,6 @@
-# Service de gestion des fiches de PROJ1
-# *Manuel d'installation*
+# Service de gestion des fiches de PROJ1.
 
-## Description du projet
+## Description du projet.
 
 Ce projet est un *service de gestion des fiches* pour le cours de PROJ1.
 
@@ -20,7 +19,7 @@ Les sources du projet, dans `./sources`, sont organisés de la façon suivante :
 - Le fichier `routes/web.php` déclare toutes les *Routes* de l'application, i.e. les liens entre URLs, Middleware et Controllers. Les autres types de routes *(`console` et `api`)* ne sont pas utilisées.
 
 
-## Crédits et licenses
+## Crédits et licenses.
 
 Ce projet repose sur :
 
@@ -31,10 +30,10 @@ Ce projet repose sur :
 - Le framework CSS [Material Design Lite](https://github.com/google/material-design-lite), sous license Apache.
 - Le framework Javascript [jQuery](https://github.com/jquery/jquery), sous license MIT.
 
-Je distribue ce projet sous license MIT, comme indiqué dans `sources/LICENSE`.
+Je distribue ce projet sous license MIT, comme indiqué dans `LICENSE`.
 
 
-## Procédure d'installation
+## Procédure d'installation.
 
 ### 1. Création de la base de données
 
@@ -53,7 +52,7 @@ Supposons que l'on souhaite stocker le service dans le dossier /var/www/fiches.
 
 ```
 APP_ENV=local
-APP_KEY=base64:kl7HN4/QY5i63fDxJEpm+doILHLQl/k48rQIBipIyY8=
+APP_KEY=[LA CLE D'APPLICATION, A GENERER AVEC `php artisan key:generate`]
 APP_DEBUG=true
 APP_LOG_LEVEL=debug
 APP_URL=[L'URL FINALE DE L'APPLICATION, PAR EXEMPLE `http://fiches.ens-lyon.fr`]
