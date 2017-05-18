@@ -1,0 +1,257 @@
+#fiches-graph {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+#user-panel {
+	min-height: initial;
+	width: 220px;
+	position: absolute;
+	top: 30px;
+	right: 30px;
+}
+
+#user-panel .mdl-chip {
+	width: 175px;
+	background: #f6f6f6;
+}
+
+#user-panel .mdl-chip__contact {
+	font-size: 16px;
+}
+
+#user-panel .mdl-chip__text {
+	background: #f6f6f6;
+}
+
+#user-panel .mdl-card__supporting-text {
+	width: auto;
+}
+
+#fiche-submit {
+	position: absolute;
+	top: 30px;
+	bottom: 30px;
+	left: 30px;
+	right: 280px;
+	width: auto;
+	height: auto;
+}
+
+#fiche-submit .mdl-card__supporting-text {
+	overflow: auto;
+	width: 100%;
+	height: 100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+#fiche-submit .mdl-textfield {
+	width: 100%;
+}
+
+#fiche-submit .mdl-button .material-icons {
+	margin-left: 8px;
+	font-size: 19px;
+	vertical-align: -4px;
+}
+
+#fiche-submit .mdl-card__menu .mdl-button .material-icons {
+	margin-left: 0;
+}
+
+.mdl-card__title {
+	height: 68px;
+}
+
+.mdl-button--file {
+	margin-top: -4px;
+}
+
+.mdl-button--file input {
+	cursor: pointer;
+	height: 100%;
+	right: 0;
+	opacity: 0;
+	position: absolute;
+	top: 0;
+	width: 300px;
+	z-index: 4;
+}
+
+.markdown, .markdown-render {
+	display: inline-block !important;
+	width: 49%;
+	height: 100%;
+	vertical-align: top;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 0 20px;
+}
+
+.mdl-textfield__input.markdown {
+	border-bottom: 0 none;
+	border-right: 1px solid #eee;
+	resize: none;
+}
+
+.is-disabled .mdl-textfield__input.markdown {
+	border-bottom: 0 none;
+}
+
+.mdl-textfield.mdl-select select {
+	width: 100%;
+	height: 32px;
+	border: 1px solid rgba(0, 0, 0, .12);
+	border-radius: 2px;
+	box-sizing: border-box;
+	display: inline-block;
+	padding: 6px;
+	vertical-align: middle;
+}
+
+.markdown-render {
+	border-left: 1px solid #eee;
+	margin-left: -1px;
+}
+
+.markdown-editor code {
+	padding: 0;
+	padding-top: 0.2em;
+	padding-bottom: 0.2em;
+	margin: 0;
+	font-size: 85%;
+	background-color: rgba(0,0,0,0.04);
+	border-radius: 3px;
+}
+
+.markdown-editor code::before,
+.markdown-editor code::after {
+	letter-spacing: -0.2em;
+	content: "\00a0";
+}
+
+.markdown-editor pre {
+	word-wrap: normal;
+}
+
+.markdown-editor pre>code {
+	padding: 0;
+	margin: 0;
+	font-size: 100%;
+	word-break: normal;
+	white-space: pre;
+	background: transparent;
+	border: 0;
+}
+
+.markdown-editor ul,
+.markdown-editor ol {
+	padding-left: 2em;
+}
+
+.markdown-editor ul ul,
+.markdown-editor ul ol,
+.markdown-editor ol ol,
+.markdown-editor ol ul {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.markdown-editor li>p {
+	margin-top: 16px;
+}
+
+.markdown-editor li+li {
+	margin-top: 0.25em;
+}
+
+.code-editor {
+	margin: -10px -16px 0;
+	font-size: 15px;
+	height: 200px;
+}
+
+.paddingless {
+	padding: 0 !important;
+}
+
+.inline-table {
+	border: 0 none;
+	width: 100%;
+}
+
+/* Tags input */
+.bootstrap-tagsinput {
+	border: 1px solid rgba(0, 0, 0, .12);
+	border-radius: 2px;
+	width: 100%;
+	box-sizing: border-box;
+	display: inline-block;
+	padding: 6px;
+	vertical-align: middle;
+	line-height: 32px;
+	cursor: text;
+}
+
+.bootstrap-tagsinput input {
+	border: none;
+	box-shadow: none;
+	outline: none;
+	background-color: transparent;
+	padding: 0 6px;
+	margin: 0;
+	width: auto;
+	max-width: inherit;
+}
+
+.bootstrap-tagsinput .tag {
+	height: 32px;
+	line-height: 32px;
+	padding: 0 12px;
+	border: 0;
+	border-radius: 16px;
+	background-color: #dedede;
+	display: inline-block;
+	color: rgba(0,0,0,.87);
+	margin: 2px 0;
+	white-space: nowrap;
+	font-size: 13px;
+}
+
+.bootstrap-tagsinput .tag [data-role="remove"] {
+	cursor: pointer;
+	height: 24px;
+	width: 24px;
+	background: 0 0;
+	opacity: .54;
+	padding: 0;
+	margin: 0 0 0 4px;
+	font-size: 13px;
+	text-decoration: none;
+	color: rgba(0,0,0,.87);
+	border: none;
+	outline: none;
+}
+
+.bootstrap-tagsinput .tag [data-role="remove"]:after {
+	content: "x";
+	padding: 0px 2px;
+}
+
+.bootstrap-tagsinput .tt-input {
+	height: 32px;
+}
+
+.mdl-card__title select {
+	border-radius: 2px;
+	border: 1px solid rgba(0, 0, 0, .6);
+	padding: 4px;
+	margin-left: 30px;
+	background: rgba(255, 255, 255, .4);
+}
